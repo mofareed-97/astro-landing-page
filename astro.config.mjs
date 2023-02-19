@@ -1,9 +1,9 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-
 import { defineConfig } from 'astro/config';
 
 import tailwind from '@astrojs/tailwind';
+import astroI18next from 'astro-i18next';
 import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
 import mdx from '@astrojs/mdx';
@@ -40,7 +40,7 @@ export default defineConfig({
       serviceEntryPoint: '@astrojs/image/sharp',
     }),
     mdx(),
-
+    astroI18next(),
     ...whenExternalScripts(() =>
       partytown({
         config: { forward: ['dataLayer.push'] },

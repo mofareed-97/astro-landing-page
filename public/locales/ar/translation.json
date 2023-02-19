@@ -1,0 +1,13 @@
+{
+  "site": {
+    "title": "InterCityXpress — Free template for create a website with Astro + Tailwind CSS",
+    "description": "Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  },
+  "home": {
+    "hero": {
+      "title": "اضمن وصول الشحنات حتى باب البيت",
+      "description": "نقدم خدمات نقل لوجستية في السعودية للأعمال والأفراد، بما في ذلك إدارة طلبات التجارة الإلكترونية، وجدولة مواعيد التسليم والكثير من الحلول والخدمات اللوجستية.",
+      "CTA": "حمل التطبيق"
+    }
+  }
+}

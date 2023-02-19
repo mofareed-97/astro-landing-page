@@ -1,0 +1,13 @@
+{
+  "site": {
+    "title": "InterCityXpress — Free template for create a website with Astro + Tailwind CSS",
+    "description": "Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  },
+  "home": {
+    "hero": {
+      "title": "Get Your Parcels Whenever You Want",
+      "description": "Providing premium logistics in Saudi Arabia for businesses and individuals, including order fulfillment and scheduled delivery services in Saudi Arabia.",
+      "CTA": "Download Our App"
+    }
+  }
+}

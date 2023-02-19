@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -54,14 +54,12 @@ export const headerData = {
     },
     {
       text: 'Blog',
-      href: getBlogPermalink(),
+      href: '#',
     },
   ],
-  actions: [
-    { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
-  ],
+  actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
 };
-  
+
 export const footerData = {
   links: [
     {
@@ -117,7 +115,6 @@ export const footerData = {
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `
